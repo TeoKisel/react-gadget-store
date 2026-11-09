@@ -1,6 +1,6 @@
 # Gadget Store
 
-[DEMO LINK](https://frontend-i9xqged7v-five-ends.vercel.app/#/)
+[DEMO LINK](https://react-gadget-store.vercel.app/)
 
 A modern e-commerce frontend application built with React and TypeScript. The project was developed as a team project to practice modern frontend development, component-based architecture, state management, and collaborative work with Git and GitHub.
 
