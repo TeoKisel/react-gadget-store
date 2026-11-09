@@ -186,20 +186,25 @@ export const SearchBar = () => {
 
           {normalizedQuery && isResultsOpen && isQuerySettled && (
             <div className="absolute left-0 top-full z-10 mt-1 max-h-60 w-full overflow-y-auto border border-elements bg-white dark:bg-primary">
-              {matches.map((product) => (
-                <Link
-                  key={`${product.category}-${product.id}`}
-                  to={`/${product.category}/${product.id}`}
-                  onClick={() => {
-                    setQuery('');
-                    setIsOpen(false);
-                    setIsResultsOpen(false);
-                  }}
-                  className="block px-3 py-2 text-sm text-black hover:bg-elements dark:text-white dark:hover:bg-surface-2-dark"
-                >
-                  {product.name.replace(/^Apple\s+/i, '')}
-                </Link>
-              ))}
+              {matches.length > 0 ?
+                matches.map((product) => (
+                  <Link
+                    key={`${product.category}-${product.id}`}
+                    to={`/${product.category}/${product.id}`}
+                    onClick={() => {
+                      setQuery('');
+                      setIsOpen(false);
+                      setIsResultsOpen(false);
+                    }}
+                    className="block px-3 py-2 text-sm text-black hover:bg-elements dark:text-white dark:hover:bg-surface-2-dark"
+                  >
+                    {product.name.replace(/^Apple\s+/i, '')}
+                  </Link>
+                ))
+              : <div className="px-3 py-2 text-sm text-black dark:text-white">
+                  No results found
+                </div>
+              }
             </div>
           )}
         </div>
