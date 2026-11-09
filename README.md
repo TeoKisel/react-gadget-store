@@ -1,4 +1,5 @@
 # Gadget Store
+
 [DEMO LINK](https://frontend-i9xqged7v-five-ends.vercel.app/#/)
 
 A modern e-commerce frontend application built with React and TypeScript. The project was developed as a team project to practice modern frontend development, component-based architecture, state management, and collaborative work with Git and GitHub.
@@ -13,10 +14,12 @@ A modern e-commerce frontend application built with React and TypeScript. The pr
 - **React Router 7** — client-side routing and navigation between pages.
 
 ### State Management & Backend
+
 - **Zustand** — lightweight state management for sharing application state between components.
 - **Supabase** — backend platform used for database and application data integration.
 
 ### Code Quality & Development Tools
+
 - **ESLint** — code quality and error checking.
 - **Prettier** — automatic code formatting.
 - **Stylelint** — CSS and stylesheet linting.
@@ -31,6 +34,7 @@ A modern e-commerce frontend application built with React and TypeScript. The pr
 ### Prerequisites
 
 Make sure you have installed:
+
 - Node.js
 - npm
 
@@ -73,6 +77,7 @@ Make sure to configure the required environment variables in the Vercel project 
 This application was developed collaboratively as part of a frontend development project.
 
 The project provided practical experience with:
+
 - Collaborative development using Git and GitHub.
 - Working with React and TypeScript.
 - Building reusable UI components.
