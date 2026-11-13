@@ -1,5 +1,5 @@
 export const CATEGORY_IMAGES = {
-  phones: '/img/categories/phones.jpg',
-  tablets: '/img/categories/tablets.jpg',
-  accessories: '/img/categories/accessories.jpg',
+  phones: '/img/categories/phones.webp',
+  tablets: '/img/categories/tablets.webp',
+  accessories: '/img/categories/accessories.webp',
 };

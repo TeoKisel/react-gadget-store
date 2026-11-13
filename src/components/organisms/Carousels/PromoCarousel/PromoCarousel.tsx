@@ -122,12 +122,14 @@ export const PromoCarousel: React.FC<Props> = ({ banners, squareBanners }) => {
                     className="w-full aspect-[2.6/1] object-cover hidden md:block"
                     src={banner}
                     alt={banner.split('.')[0]}
+                    loading="lazy"
                   />
 
                   <img
                     className="w-full aspect-square object-cover block md:hidden"
                     src={squareBanners[index]}
                     alt={squareBanners[index].split('.')[0]}
+                    loading="lazy"
                   />
                 </div>
               ))}

@@ -1,5 +1,5 @@
 export const BANNERS = [
-  '/img/banners/FullBanner.png',
-  '/img/banners/TabletsBanner.png',
-  'img/banners/PhonesBanner.png',
+  '/img/banners/FullBanner.webp',
+  '/img/banners/TabletsBanner.webp',
+  '/img/banners/PhonesBanner.webp',
 ];

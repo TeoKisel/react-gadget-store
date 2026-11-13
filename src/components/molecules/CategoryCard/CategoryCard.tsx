@@ -18,6 +18,7 @@ export const CategoryCard = ({ title, image, count, to }: Props) => {
         src={image}
         alt={title}
         className="aspect-square w-full object-cover"
+        loading="lazy"
       />
       <HeadingWithCount
         title={title}

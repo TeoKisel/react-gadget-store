@@ -95,6 +95,7 @@ export const ProductCard: React.FC<Props> = ({
             className="max-h-full max-w-full object-contain "
             src={product.images[0]}
             alt={product.name}
+            loading="lazy"
           />
         </Link>
       </div>
